@@ -1,0 +1,15 @@
+---
+application:
+  name: "pantherbot"
+  project: "FHS Chatbot"
+  organization: "QoveryCommunity"
+databases:
+- type: "MYSQL"
+  name: "sqlite"
+  version: "8.0"
+routers:
+- name: "main-pantherbot"
+  routes:
+  - application_name: "pantherbot"
+    paths:
+    - "/*"
