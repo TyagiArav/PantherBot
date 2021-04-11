@@ -5,7 +5,7 @@ from chatterbot.trainers import ListTrainer
 
 app = Flask(__name__)
 
-bot = ChatBot("Panther", storage_adapter="chatterbot.storage.SQLStorageAdapter")
+bot = ChatBot("Panther", storage_adapter="chatterbot.storage.mysql")
 trainer = ChatterBotCorpusTrainer(bot)
 trainer.train("chatterbot.corpus.english")
 listtrainer = ListTrainer(bot)
