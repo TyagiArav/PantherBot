@@ -1,11 +1,11 @@
 ---
 application:
   name: "pantherbot"
-  project: "FHS Chatbot"
+  project: "PantherBot"
   organization: "QoveryCommunity"
 databases:
 - type: "MYSQL"
-  name: "sqlite"
+  name: "MySQL"
   version: "8.0"
 routers:
 - name: "main-pantherbot"
